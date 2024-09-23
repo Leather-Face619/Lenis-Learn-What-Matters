@@ -6,21 +6,111 @@
     <title>lenis</title>
     <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
     <script src="https://cdn.tailwindcss.com"></script>
+   <style>
+    .grid>div{
+    grid-row:var(--r);
+    grid-column:var(--c);
+  
+    }
+   </style>
 </head>
-<body>
-    <div id="container" class="w-full text-white">
-        <div class="h-screen w-full bg-zinc-900 flex items-center justify-center ">
-            <h3>hulla hulle hulle 1</h3>
+<body class="w-full bg-zinc-900">
+
+    <div class="grid grid-cols-8 gap-1 w-3/4">
+        <!-- Row 1 -->
+        <div class="grid-item  my-20 border w-[16vw]  flex justify-center items-center" style="--r: 1; --c: 2;">
+          <img src="/img/1.jpg" class="w-full h-full object-cover">
         </div>
-        <div class="h-screen w-full bg-zinc-700 flex items-center justify-center " >
-            <h3>hulla hulle hulle 2</h3>
+        <div class="grid-item  my-20 border  w-[16vw]  flex justify-center items-center" style="--r: 1; --c: 5;">
+          <img src="/img/2.jpg" class="w-full h-full object-cover">
         </div>
-        <div class="h-screen w-full bg-zinc-500 flex items-center 
-        justify-center ">
-            <h3>hulla hulle hulle 3</h3>
+    
+        <!-- Row 2 -->
+        <div class="grid-item  my-20 border  w-[16vw]   flex justify-center items-center" style="--r: 2; --c: 1;">
+          <img src="/img/3.jpg" class="w-full h-full object-cover">
         </div>
-    </div>
-</body>
+        <div class="grid-item  my-20 border w-[16vw]   flex justify-center items-center" style="--r: 2; --c: 4;">
+          <img src="/img/4.jpg" class="w-full h-full object-cover">
+        </div>
+    
+        <!-- Row 3 -->
+        <div class="grid-item  my-20 border  w-[16vw]   flex justify-center items-center" style="--r: 3; --c: 3;">
+          <img src="/img/5.jpg" class="w-full h-full object-cover">
+        </div>
+        <div class="grid-item  my-20 border  w-[16vw]   flex justify-center items-center" style="--r: 3; --c: 6;">
+          <img src="/img/6.jpg" class="w-full h-full object-cover">
+        </div>
+    
+        <!-- Row 4 -->
+        <div class="grid-item  my-20 border  w-[16vw]   flex justify-center items-center" style="--r: 4; --c: 2;">
+          <img src="/img/7.jpg" class="w-full h-full object-cover">
+        </div>
+        <div class="grid-item  my-20 border   w-[16vw]  flex justify-center items-center" style="--r: 4; --c: 7;">
+          <img src=" /img/8.jpg" class="w-full h-full object-cover">
+        </div>
+    
+        <!-- Row 5 -->
+        <div class="grid-item  my-20 border  w-[16vw]   flex justify-center items-center" style="--r: 5; --c: 3;">
+          <img src=" /img/9.jpg" class="w-full h-full object-cover">
+        </div>
+        <div class="grid-item  my-20 border  w-[16vw]   flex justify-center items-center" style="--r: 5; --c: 8;">
+          <img src=" /img/10.jpg" class="w-full h-full object-cover">
+        </div>
+    
+        <!-- Row 6 -->
+        <div class="grid-item  my-20 border   w-[16vw]  flex justify-center items-center" style="--r: 6; --c: 1;">
+          <img src=" /img/11.jpg" class="w-full h-full object-cover">
+        </div>
+        <div class="grid-item  my-20 border  w-[16vw]   flex justify-center items-center" style="--r: 6; --c: 6;">
+          <img src=" /img/12.jpg" class="w-full h-full object-cover">
+        </div>
+    
+        <!-- Row 7 -->
+        <div class="grid-item  my-20 border  w-[16vw]   flex justify-center items-center" style="--r: 7; --c: 2;">
+          <img src=" /img/13.jpg" class="w-full h-full object-cover">
+        </div>
+        <div class="grid-item  my-20 border  w-[16vw]   flex justify-center items-center" style="--r: 7; --c: 5;">
+          <img src=" /img/14.jpg" class="w-full h-full object-cover">
+        </div>
+    
+        <!-- Row 8 -->
+        <div class="grid-item  my-20 border  w-[16vw]   flex justify-center items-center" style="--r: 8; --c: 4;">
+          <img src=" /img/15.jpg" class="w-full h-full object-cover">
+        </div>
+        <div class="grid-item  my-20 border  w-[16vw]   flex justify-center items-center" style="--r: 8; --c: 7;">
+          <img src=" /img/16.jpg" class="w-full h-full object-cover">
+        </div>
+    
+        <!-- Row 9 -->
+        <div class="grid-item  my-20 border  w-[16vw]   flex justify-center items-center" style="--r: 9; --c: 3;">
+          <img src=" /img/17.jpg" class="w-full h-full object-cover">
+        </div>
+        <div class="grid-item  my-20 border  w-[16vw]   flex justify-center items-center" style="--r: 9; --c: 8;">
+          <img src=" /img/18.jpg" class="w-full h-full object-cover">
+        </div>
+    
+        <!-- Row 10 -->
+        <div class="grid-item  my-20 border  w-[16vw]   flex justify-center items-center" style="--r: 10; --c: 1;">
+          <img src=" /img/19.jpg" class="w-full h-full object-cover">
+        </div>
+        <div class="grid-item  my-20 border  w-[16vw]   flex justify-center items-center" style="--r: 10; --c: 6;">
+          <img src=" /img/20.jpg" class="w-full h-full object-cover">
+        </div>
+    
+        <!-- Continue with remaining rows up to Row 20 -->
+      </div>
+  <div class="fixed text-white top-0 left-0 w-full h-full flex flex-col justify-center items-center">
+    <h1 class="text-8xl uppercase mb-4">Walter White<sup>&copy;</sup></h1>
+    <h2 class="text-8xl text-blue-400">#Heisenberg</h2>
+  </div>
+  <div class="w-full h-[100vh] bg-zinc-700">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nam quisquam provident voluptatum, error, amet recusandae inventore debitis voluptate nisi eos, iure quis itaque quasi! Sint minus obcaecati molestias sunt? Facilis quis nobis fugit obcaecati explicabo, magni, provident distinctio veniam vel natus at laborum accusantium quasi est illo minima velit eius quas exercitationem. Amet dignissimos animi repellat accusamus. Nobis, beatae ipsum. Repellendus officiis obcaecati eos. Necessitatibus suscipit expedita, totam, fuga veniam voluptates impedit dicta vitae veritatis recusandae iste neque. Ut, rerum veniam? Facere nemo accusamus molestias sit beatae.</p>
+  </div>
+  </body>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+  </html>
 <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script> 
 <script src="script.js"></script>
 </html>
